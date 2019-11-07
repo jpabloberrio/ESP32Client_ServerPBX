@@ -1,0 +1,4 @@
+# ESP32Client_ServerPBX
+Proyecto que usa el ESP32 para enviar datos a un PBX Issabel con Asterisk y recibir datos desde una extensión SIP con Asterisk  para ejecutar acciones en sus pines de salida. ESP32 se conecta a red wifi, en la cual está el pbx Issabel, al circuito del ESP32 están conectados dos pulsadores, al presionarlos hacen llamado al Asterisk que corre en Issabel para lanzar llamada SIP, que dicta texto por medio de Festival.  Desde el PBX se puede llamar a extensión y al marcar una opción dada, se ejecuta script que realiza llamado GET al ESP32 como cliente para ejecutar una acción en el circuito.
+
+<img src="https://lh3.googleusercontent.com/qOLIuEnzDceb3lAxKxNK7xPmc28kTXNuVPaXBrl-WBh_WsjvPeLadz-kyztXyxl4z3P0PwuvfoMCEAEdBo9GGe9gd26l2wMbZlq3Qm9G_AldZlSVXYfb3W-lNHq_zbtpKEYQJ-Q8vYU=w1112-h625-no">
